@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Webpage about Andrea Baumgartner">
+    <meta name="keywords" content="contact">
+    <meta name="author" content="Andrea Baumgartner">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="30" />
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <div>
+                <ul>
+                    <li type="none"><a href="./index.html">Home</a></li>
+                    <li type="none"><a href="./about.html">About Me</a></li>
+                    <li type="none"><a href="./cv.html">Curriculum Vitae</a></li>
+                    <li type="none"><a href="./gallery.html">Gardening for Computer Scientists</a></li>
+                    <li type="none"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <h1 style="text-align: center;">Contact</h1>
+        <p style="text-align: center;">Please use this form to contact me:</p>
+
+        <form method="post" action=""><!--left the action empty, because we use no Java script for this assignment-->
+            <!--done this with the freecodecamp "Learn HTML Forms by building a Registration Form": https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-65-->
+            <fieldset>
+                <label for="name">Name: <input id="name" type="text" required /></label>
+                <label for="mail">Email: <input id="mail" type="text" required /></label>
+                <label for="phone">Phone number: <input id="Phone number" type="text" /></label>
+                <!--Phone number not required-->
+                <label for="subject">Subject: <input id="supject" type="text" required /></label>
+                <label for="message"><textarea required id="message" rows="15" cols="30"
+                        placeholder="Please enter your message here..."></textarea></label>
+                <input id="submit" type="submit" value="Send" />
+            </fieldset>
+    </section>
+
+    <footer>
+        <p>Author: Andrea Baumgartner - email: 25imc10106@fh-krems.ac.at</p>
+    </footer>
+
+</body>
+
+
+</html>
